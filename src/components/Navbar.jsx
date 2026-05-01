@@ -45,7 +45,7 @@ export default function Navbar({ isDark, toggleTheme }) {
             </a>
           ))}
           <a 
-            href="/Rohith_Kumar_P_DA_Resume2.pdf" 
+            href={`/Rohith_Kumar_P_DA_Resume2.pdf?t=${new Date().getTime()}`}
             download="Rohith_Kumar_P_Resume.pdf"
             className="text-sm font-medium text-accent-cyan hover:text-accent-purple transition-colors ml-4"
           >
@@ -98,7 +98,7 @@ export default function Navbar({ isDark, toggleTheme }) {
                 </a>
               ))}
               <a 
-                href="/Rohith_Kumar_P_DA_Resume2.pdf" 
+                href={`/Rohith_Kumar_P_DA_Resume2.pdf?t=${new Date().getTime()}`}
                 download="Rohith_Kumar_P_Resume.pdf"
                 className="text-accent-cyan hover:text-accent-purple transition-colors font-medium"
               >

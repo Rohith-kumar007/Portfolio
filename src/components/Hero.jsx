@@ -30,7 +30,7 @@ export default function Hero() {
             View Projects <ArrowRight size={18} />
           </a>
           <a 
-            href="/Rohith_Kumar_P_DA_Resume2.pdf" 
+            href={`/Rohith_Kumar_P_DA_Resume2.pdf?t=${new Date().getTime()}`}
             download="Rohith_Kumar_P_Resume.pdf"
             className="flex items-center gap-2 px-6 py-3 border border-accent-cyan text-accent-cyan hover:bg-accent-cyan/10 rounded-lg font-medium transition-colors shadow-[0_0_15px_rgba(6,182,212,0.3)] hover:shadow-[0_0_25px_rgba(6,182,212,0.5)]"
           >
